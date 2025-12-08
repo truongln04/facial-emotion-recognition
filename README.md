@@ -30,7 +30,11 @@ facial-emotion-recognition/
 ├── requirements.txt         # danh sách thư viện cần cài
 
 ## Run
-
+Thêm lại folder 
+├── data/
+│   ├── raw/                 # dữ liệu gốc (FER2013 hoặc ảnh riêng)
+│   └── processed/           # dữ liệu đã tiền xử lý (tự sinh bởi scripts/preprocess.py)
+Trong raw thêm 2 folder train và test của dataset fer2013
 1) Cài đặt
    python -m pip install --upgrade pip
 pip install -r requirements.txt
