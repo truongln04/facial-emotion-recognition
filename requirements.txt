@@ -1,0 +1,41 @@
+# ==========================
+# Xử lý ảnh cơ bản
+# ==========================
+numpy==1.24.4           # Thư viện mảng số, toán học (ổn định cho Python 3.8)
+pillow==10.3.0          # Đọc/ghi ảnh (PIL fork)
+opencv-python==4.9.0.80 # OpenCV: xử lý ảnh, webcam, hiển thị realtime
+
+# ==========================
+# Vẽ biểu đồ, trực quan hóa
+# ==========================
+matplotlib==3.7.5       # Vẽ biểu đồ loss/accuracy
+seaborn==0.13.2         # Vẽ confusion matrix, heatmap
+
+# ==========================
+# Machine Learning / Deep Learning
+# ==========================
+torch==2.2.2            # PyTorch (hỗ trợ Python 3.8)
+torchvision==0.17.2     # Models (ResNet), transforms
+scikit-learn==1.3.2     # Confusion matrix, classification report
+
+# ==========================
+# Tiện ích huấn luyện
+# ==========================
+tqdm==4.66.2            # Progress bar khi train/val
+
+# ==========================
+# GUI
+# ==========================
+PyQt6==6.7.0            # Giao diện người dùng (GUI)
+# pyqt6-tools (tuỳ chọn) nếu muốn dùng Qt Designer
+
+# ==========================
+# Tuỳ chọn (không bắt buộc)
+# ==========================
+pandas==2.0.3           # Log kết quả ra CSV, phân tích dữ liệu
+python-dotenv==1.0.1    # Đọc biến môi trường từ file .env
+
+# ==========================
+# Face detection (MTCNN)
+# ==========================
+facenet-pytorch==2.5.3  # MTCNN face detector
